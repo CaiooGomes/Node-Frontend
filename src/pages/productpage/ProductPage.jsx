@@ -86,7 +86,7 @@ function ProductPage() {
     // }
     return (
         <div>
-            <AddButton abrirOModal={mudarModal} />
+            <AddButton abrirOModal={mudarModal} texto="Adicionar produto"/>
             {showModal ? (
                 <Modal createProduct={createProduct} fecharOModal={mudarModal} />
             ) : null}
